@@ -56,7 +56,7 @@ public class TourDeFranceMain extends Application {
 		verbinden.setMinWidth(40);
 		verbinden.setMinHeight(30);
 
-		Button schliessen = new Button(" Schließen ");
+		Button schliessen = new Button(" Schliessen ");
 		schliessen.setMinWidth(40);
 		schliessen.setMinHeight(30);
 
@@ -115,7 +115,7 @@ public class TourDeFranceMain extends Application {
 					else{
 						alert.setTitle("Fehlgeschlagen");
 						alert.setHeaderText(null);
-						alert.setContentText("Datenbankverbindung fehlgeschlagen. Überprüfen Sie ihre Benutzereingaben");
+						alert.setContentText("Datenbankverbindung fehlgeschlagen. ï¿½berprï¿½fen Sie ihre Benutzereingaben");
 
 						alert.showAndWait();
 					}
@@ -124,7 +124,7 @@ public class TourDeFranceMain extends Application {
 					Alert alert2 = new Alert(AlertType.WARNING);
 					alert2.setTitle("Achtung");
 					alert2.setHeaderText(null);
-					alert2.setContentText("Bitte alle Felder ausfüllen!");
+					alert2.setContentText("Bitte alle Felder ausfï¿½llen!");
 					alert2.showAndWait();
 
 				}
